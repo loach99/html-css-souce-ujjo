@@ -1,0 +1,20 @@
+.tagline_block{
+    border: 1px solid black;
+    border-top:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5vw;
+}
+.tagline_scorpion-image{
+    width: 10vw;
+    margin: 1vw 8vw;
+}
+.tagline_scorpion-image:last-child{
+    transform: scale(-1, 1)
+}
+
+.tagline_description{
+    font-size: 3vw;
+    text-align: center;
+}
